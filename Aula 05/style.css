@@ -1,0 +1,31 @@
+:root {
+
+
+    --cor-principal: black;
+    --cor-secundaria: purple;
+    --cor-destaque:green;
+    --cor-texto: white;    
+
+}
+
+body {
+
+    background-image: linear-gradient(to top, rgb(34, 0, 34), black) ;
+    background-repeat: no-repeat;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: var(--cor-principal);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid --cor-destaque";
+}
+h1{
+    color: var(--cor-destaque);
+   }
